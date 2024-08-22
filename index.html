@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Profile and Goal Meter</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="profile-container">
+        
+        <div class="top-blue-bar"></div>
+
+      
+        <div class="view-patient">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#012E57">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 4l1.41 1.41L7.83 11H20v2H7.83l5.59 5.59L12 20l-8-8 8-8z" />
+            </svg>
+            
+            <span style="font-size: 20px;">View patient</span>
+
+        </div>
+        <hr>
+        <div class="header">
+            <div>
+                <h3>S.Meenah, F/23</h3>
+                <p>Patient ID: 87 20200727153457</p>
+            </div>
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cittumkur.org%2Fwp-content%2Fuploads%2F2022%2F02%2Fperson-logo-1.jpg&f=1&nofb=1" alt="Profile Picture" width="50">
+        </div>
+        
+        <div>
+            <!-- Goal Meter Section -->
+            <div class="goal-container">
+                <div class="goal-chart" id="goalChart">
+                   
+                    <svg viewBox="0 0 100 50">
+                       
+                        <path d="M 0 80 A 50  50 0 0 1 100 50" fill="none" stroke="#ffffff" stroke-width="15" />
+                       
+                        <path d="M 0 80 A 50 50 0 0 1 64 16" fill="none" stroke="#f39c12" stroke-width="15" />
+                    </svg>
+                    <div class="goal-percentage" style="font-size: 30px;">40%</div>
+                </div>
+
+                <div class="indicators">
+                    <div class="indicator">
+                        <p><strong>EMG</strong></p><br>
+                        <div class="icon">
+                          
+                             
+                            <svg height="30" width="50">
+                                <polyline points="0,20 10,10 20,20 30,5 40,20 50,10" style="fill:none;stroke:green;stroke-width:2" />
+                            </svg>
+                        </div>
+                        
+                    </div>
+                    <div class="indicator">
+                        <p><strong>ROM</strong>
+                        <div class="icon">
+                           
+                            <svg height="30" width="50">
+                                <polyline points="0,10 10,20 20,15 30,25 40,10 50,20" style="fill:none;stroke:red;stroke-width:2" />
+                            </svg>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <p class="info-item">
+                <span style="color: #AEACAC; float: left; width: 30%;">Phone no.:</span>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fy43AzhNM7bmVBz-oyiP3QHaHK%26pid%3DApi&f=1&ipt=131a85c30b061913fd97c727bbc969eed1d3d72925027eed507a07c8e8d741a6&ipo=images" style="width: 24px; height: 24px; color: rgb(28, 28, 179); float: right; margin-left: 20px;" />
+                <span style="color: rgb(18, 18, 25); float: left;">8022334455</span>
+            </p>
+            
+            <p class="info-item">
+                <span style="color: #AEACAC; float: left; width: 40%;">Mail ID:</span> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Bo0rO3iIel2is11g3Oe1qgHaHa%26pid%3DApi&f=1&ipt=2b3af78b419d4f9a3bc0817e4fd99aafdd939051e5b801507fb7eae29e3025e6&ipo=images" style="width: 24px; height: 24px;"style="margin-left: 20px;" />
+                <span style="color: black;" >meenarabinsachin2@gmail.com</span>
+                
+            </p>
+            <p class="info-item">
+                <span style="color: #AEACAC; float: left; width: 34%;">Affected side:</span> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.1KZ3w9FlU-2Uz-Hh8XIQQgHaHa%26pid%3DApi&f=1&ipt=337cd98a5907c9179dec696b96a6f3883629d0ada3e95d969c9444b7a4118d2d&ipo=images" style="width: 24px; height: 24px;"style="margin-left: 20px;" />
+                <span style="color: black;">Bilateral</span>
+               
+            </p>
+            <p class="info-item">
+                <span style="color: #AEACAC; float: left; width: 34%;">Condition:</span> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DxPXTfCrsiEY6CERR3zNagHaH_%26pid%3DApi&f=1&ipt=fb3ca54a2f9461bbab4c3b29709471129ec61fb1b6114460696353d6df65c5bf&ipo=images" style="width: 24px; height: 24px;"style="margin-left: 20px;" />
+            
+                <span style="color: black;">Ortho</span>
+               
+            <p class="info-item">
+                <span style="color: #AEACAC; float: left; width: 34%;">Speciality:</span> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.keP_H2y5i7pnFguLOEBAbAHaHa%26pid%3DApi&f=1&ipt=329d0288bddcaba163627e02299834d43c9f3ee3b80145ef5a7da67bb4687581&ipo=images" style="width: 24px; height: 24px;"style="margin-left: 20px;" />
+                <span style="color: black;">Osteoarthritis</span>
+                
+            </p>
+        </div>
+        
+        
+
+        <hr>
+
+        <div class="profile-info">
+            <p> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9XQ7zN7bb_2qOXU7aMVgDQHaHa%26pid%3DApi&f=1&ipt=1b33128b48612d4bd40e6d660fd7dfa8925445f91ed8cee72a0eed2bcb599d89&ipo=images" style="width: 20px; height: 26px;" /><strong  style="color: #2b3e63;">Medical history:&nbsp;&nbsp;</strong><span tyle="color: #AEACAC; float: left; width: 34%;">Hypertension, DM, Hypothyroidism</span> </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
